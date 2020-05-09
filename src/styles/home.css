@@ -134,6 +134,9 @@
   .row-stats-mobile {
     visibility: hidden;
   }
+  .col-right {
+    visibility: hidden;
+  }
 }
 
 @media (max-width: 575.98px) {
@@ -154,5 +157,8 @@
     margin-top: -5%;
     visibility: visible;
     z-index: 10;
+  }
+  .col-right {
+    visibility: hidden;
   }
 }
