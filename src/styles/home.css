@@ -27,6 +27,7 @@
 
   .row-stats-mobile {
     visibility: hidden;
+    background: red;
   }
   .div-left {
     position: absolute;
@@ -67,10 +68,10 @@
   @media (max-width: 1920px) {
     .row-stats {
       width: 32vw;
-      margin-top: -6%;
+      margin-top: 8%;
     }
     .col-text {
-      margin-top: 28%;
+      margin-top: 17%;
     }
     .row-stats-mobile {
       visibility: hidden;
@@ -151,7 +152,7 @@
     visibility: hidden;
   }
   .row-stats-mobile {
-    margin-top: 11%;
+    margin-top: 10%;
     visibility: visible;
   }
 }
