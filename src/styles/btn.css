@@ -1,0 +1,20 @@
+.btn-container {
+    width: 100%;
+    text-align: left;
+}
+
+.button a {
+    color: white;
+}
+.button {
+    background: linear-gradient(79deg, rgba(240,73,55,1) 0%, rgba(250,169,62,1) 100%);
+    padding: 12px 20px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    position: relative;
+    text-transform: uppercase;
+    border-radius: 25px;
+    text-decoration: none;
+    border: 0.1px solid #faa93e;
+}

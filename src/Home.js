@@ -5,42 +5,45 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
+import Text from "./Components/Text"
+import Btn from "./Components/Btn"
+import Logo from "./Components/Logo"
+import Picture from "./Components/Picture"
+
 class Home extends Component {
     render() {
         return (
             <div className="div-main">
                 <Container className="container-std">
                     <Row className="row-main">
-                        <Col className="col-std col-left" md={12}>
+                        <Col className="col-std col-left" md={6}>
                             <div className="div-left">
                                 <Container className="container-left">
-                                <Row className="row-logo">
-                                        <Col className="col-std col-logo"> logo</Col>
+                                    <Row className="row-logo">
+                                        <Col className="col-std col-logo">{<Logo />}</Col>
                                     </Row>
                                     <Row className="row-text">
-                                        <Col className="col-std col-text" md={6}>pierdu pierdu</Col>
+                                        <Col className="col-std col-text" md={12}>{<Text />}</Col>
                                     </Row>
-                                    <Row className="row-btn">
-                                        <Col className="col-std col-btn">kontakt</Col>
-                                        <Col className="col-std col-btn">portfolio</Col>
-                                        <Col className="col-std col-btn">wycena</Col>
-                                    </Row>
-                                    <Row className="row-social">
-                                        <Col className="col-std col-social">fb</Col>
+                                    <Row className="row-stats">
+                                        <Col><Btn href="" btntext="Skontaktuj się" /> </Col>
+                                        <Col><Btn href="" btntext="Wyceń projekt" /> </Col>
+                                        <Col><Btn href="" btntext="Portfolio" /> </Col>
                                     </Row>
                                 </Container>
                             </div>
                         </Col>
-                        <Col className="col-std col-right" md={5}>
-                            <div className="div-right">
-                            <p> tu foto</p>
+                        <Col className="col-std col-right" md={6}>
+                            <div className="div-right"> {<Picture />}
                             </div>
                         </Col>
                     </Row>
                 </Container>
             </div>
+            
         );
     }
 }
-
 export default Home;
+
+

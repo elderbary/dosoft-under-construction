@@ -1,0 +1,13 @@
+.text h1 {
+    font-size: 52px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.text p {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-top: 3%;
+}
+

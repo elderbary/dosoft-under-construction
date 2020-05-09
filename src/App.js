@@ -1,13 +1,19 @@
-import React from 'react';
+import React, { Component } from "react";
+import "./styles/home.css";
 
-import './App.css';
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
-function App() {
-  return (
-    <div className="App">
-<p>s</p>
-    </div>
-  );
+class App extends Component {
+    render() {
+        return (
+
+
+        )
+    }
 }
 
 export default App;
+
+
