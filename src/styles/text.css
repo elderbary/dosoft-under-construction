@@ -66,3 +66,12 @@
 
     }
 }
+
+@media (max-width: 768px) {
+    .text h1 {
+        font-size: 40px;
+    }
+    .text p {
+        font-size: 18px;
+    }
+}

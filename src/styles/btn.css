@@ -23,19 +23,20 @@
 
   @media (max-width: 1600px) {
     .button {
-        font-size: 16px;
+        font-size: 15px;
     }
 }
 
   @media (max-width: 1400px) {
     .button {
-        font-size: 14px;
+        font-size: 13px;
+        padding: 10px 11px;
 }
 }
 
   @media (max-width: 992px) {
     .button {
-        font-size: 12px;
+        font-size: 13px;
         padding: 10px 10px;
 }
 }
@@ -46,4 +47,11 @@
         padding: 10px 17px;
         margin-top: 12px;
 }
+}
+
+@media (max-width: 768px) {
+    .button {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
 }

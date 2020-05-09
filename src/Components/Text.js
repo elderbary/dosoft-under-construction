@@ -4,8 +4,10 @@ import "../styles/text.css"
 const Text = () => {
     return (
         <div className="text">
-        <h1>Strona w przebudowie</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis sollicitudin augue. Duis ultricies accumsan justo vitae pulvinar. Praesent quis nulla facilisis, ullamcorper urna eu, congue ipsum. In nec aliquam ex.</p>
+        <h1>Strona
+            <br></br> w przebudowie</h1>
+        <p>Ale my wciąż tu jesteśmy i nie zwalniamy. Potrzebujesz pomocy? Sprawdź nasze portfolio i skontaktuj się z nami.
+</p>
         </div>
     )
 }
