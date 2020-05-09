@@ -26,9 +26,12 @@ class Home extends Component {
                                         <Col className="col-std col-text" md={12}>{<Text />}</Col>
                                     </Row>
                                     <Row className="row-stats">
-                                        <Col><Btn href="" btntext="Skontaktuj się" /> </Col>
+                                        <Col><Btn href="mailto:kontakt@dosoft.pl" btntext="Skontaktuj się" /> </Col>
                                         <Col><Btn href="" btntext="Wyceń projekt" /> </Col>
                                         <Col><Btn href="" btntext="Portfolio" /> </Col>
+                                    </Row>
+                                    <Row className="row-stats-mobile">
+                                        <Col><Btn href="mailto:kontakt@dosoft.pl" btntext="Skontaktuj się" /> <Btn href="" btntext="Wyceń projekt" /> <Btn href="" btntext="Portfolio" /></Col>
                                     </Row>
                                 </Container>
                             </div>

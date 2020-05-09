@@ -1,3 +1,28 @@
 .div-logo img {
-    width: 17%;
+    width: 10%;
 }
+
+
+@media (max-width: 1400px) {
+    .div-logo img {
+        width: 15%;
+    }
+}
+
+@media (max-width: 992px) {
+    .div-logo img {
+        width: 20%;
+    }
+}
+
+@media (max-width: 768px) {
+    .div-logo img {
+        width: 15%;
+    }
+  }
+
+  @media (max-width: 575.98px) {
+    .div-logo img {
+        width: 22%;
+    }
+  }

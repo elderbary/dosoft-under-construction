@@ -1,3 +1,8 @@
+.text {
+    margin-right: 250px;
+    transform: translate(0%, 0%);
+}
+
 .text h1 {
     font-size: 52px;
     font-family: 'Poppins', sans-serif;
@@ -11,3 +16,53 @@
     margin-top: 3%;
 }
 
+  @media (max-width: 1600px) {
+    .text {
+        margin-right: 120px;
+    }
+    .text h1 {
+      font-size: 48px;
+    }
+    .text p {
+        font-size: 18px;
+    }
+}
+
+  @media (max-width: 1400px) {
+    .text {
+        margin-right: 100px;
+    }
+    .text h1 {
+        font-size: 44px;
+    }
+    .text p {
+        font-size: 16px;
+    }
+}
+
+  @media (max-width: 992px) {
+    .text {
+        margin-right: 0px;
+    }
+    .text h1 {
+        font-size: 38px;
+    }
+    .text p {
+        font-size: 14.5px;
+    }
+
+    @media (max-width: 575.98px) {
+        .text {
+            margin: 0 auto;
+            transform: translate(0%, 35%);
+        }
+        .text h1 {
+            font-size: 35px;
+        }
+        .text p {
+            font-size: 14px;
+            margin-top: 15px;
+        }
+
+    }
+}
