@@ -165,3 +165,30 @@
     margin-top: 25%;
   }
 }
+
+@media (max-width: 330.98px) {
+
+  .div-left {
+      top: 10%;
+      margin: 0 auto;
+      left: 2%;
+      right: 2%;
+    }
+    .row-stats {
+      visibility: hidden;
+  }
+    .div-right {
+      visibility: hidden;
+    }
+    .row-stats-mobile {
+      margin-top: -22%;
+      visibility: visible;
+      z-index: 10;
+    }
+    .col-right {
+      visibility: hidden;
+    }
+    .col-text {
+      margin-top: 28%;
+    }
+  }

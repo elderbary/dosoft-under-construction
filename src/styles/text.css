@@ -74,3 +74,13 @@
         font-size: 16px;
     }
 }
+
+@media (max-width: 330.98px) {
+    .text h1 {
+        font-size: 28px;
+    }
+    .text p {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+}

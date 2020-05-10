@@ -71,3 +71,12 @@
         
     }
 }
+
+@media (max-width: 330.98px) {
+    .button {
+        font-size: 12px;
+        padding: 8px 10px;
+        margin-top: 12px;
+        
+    }
+}
