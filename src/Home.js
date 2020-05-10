@@ -11,6 +11,52 @@ import Logo from "./Components/Logo"
 import Picture from "./Components/Picture"
 
 class Home extends Component {
+    redirect = (url) => {
+        console.log(url);
+    }
+
+    componentDidMount() {
+        document.getElementById('contact').addEventListener('click', function () {
+            window.location.href = 'mailto:kontakt@dosoft.pl';
+        });
+        document.getElementById('pricing').addEventListener('click', function () {
+            window.location.href = 'https://forms.gle/7e2MrJPc7KLBe19g8';
+        });
+        document.getElementById('portfolio').addEventListener('click', function () {
+            window.location.href = 'https://dribbble.com/dosoft';
+        });
+        document.getElementById('contact-mobile').addEventListener('click', function () {
+            window.location.href = 'mailto:kontakt@dosoft.pl';
+        });
+        document.getElementById('pricing-mobile').addEventListener('click', function () {
+            window.location.href = 'https://forms.gle/7e2MrJPc7KLBe19g8';
+        });
+        document.getElementById('portfolio-mobile').addEventListener('click', function () {
+            window.location.href = 'https://dribbble.com/dosoft';
+        });
+    }
+
+    componentWillUnmount() {
+        document.getElementById('contact').removeEventListener('click', function () {
+            window.location.href = 'mailto:kontakt@dosoft.pl';
+        });
+        document.getElementById('pricing').removeEventListener('click', function () {
+            window.location.href = 'https://forms.gle/7e2MrJPc7KLBe19g8';
+        });
+        document.getElementById('portfolio').removeEventListener('click', function () {
+            window.location.href = 'https://dribbble.com/dosoft';
+        });
+        document.getElementById('contact-mobile').removeEventListener('click', function () {
+            window.location.href = 'mailto:kontakt@dosoft.pl';
+        });
+        document.getElementById('pricing-mobile').removeEventListener('click', function () {
+            window.location.href = 'https://forms.gle/7e2MrJPc7KLBe19g8';
+        });
+        document.getElementById('portfolio-mobile').removeEventListener('click', function () {
+            window.location.href = 'https://dribbble.com/dosoft';
+        });
+    }
+
     render() {
         return (
             <div className="div-main">
@@ -26,12 +72,12 @@ class Home extends Component {
                                         <Col className="col-std col-text" md={12}>{<Text />}</Col>
                                     </Row>
                                     <Row className="row-stats">
-                                        <Col md={4}><Btn href="mailto:kontakt@dosoft.pl" btntext="Skontaktuj się" /> </Col>
-                                        <Col md={4}><Btn href="" btntext="Wyceń projekt" /> </Col>
-                                        <Col md={4}><Btn href="https://dribbble.com/dosoft/shots" btntext="Portfolio" /> </Col>
+                                        <Col md={4}><button id="contact">Skontaktuj się</button></Col>
+                                        <Col md={4}><button id="pricing">Wyceń projekt</button></Col>
+                                        <Col md={4}><button id="portfolio">Portfolio</button></Col>
                                     </Row>
                                     <Row className="row-stats-mobile">
-                                        <Col><Btn href="mailto:kontakt@dosoft.pl" btntext="Skontaktuj się" /> <Btn href="" btntext="Wyceń projekt" /> <Btn href="" btntext="Portfolio" /></Col>
+                                        <Col><button id="contact-mobile">Skontaktuj się</button> <button id="pricing-mobile">Wyceń projekt</button> <button id="portfolio-mobile">Portfolio</button></Col>
                                     </Row>
                                 </Container>
                             </div>
