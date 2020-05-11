@@ -92,14 +92,8 @@
 }
 
 @media (max-width: 575.98px) {
-  .row-stats {
-    visibility: hidden;
-}
   .div-right {
     visibility: hidden;
-  }
-  .row-stats-mobile {
-    visibility: visible;
   }
   .col-right {
     visibility: hidden;
