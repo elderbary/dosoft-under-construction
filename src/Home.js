@@ -72,9 +72,9 @@ class Home extends Component {
                                         <Col className="col-std col-text" md={12}>{<Text />}</Col>
                                     </Row>
                                     <Row className="row-stats">
-                                        <Col md={4}><button id="contact">Skontaktuj się</button></Col>
-                                        <Col md={4}><button id="pricing">Wyceń projekt</button></Col>
-                                        <Col md={4}><button id="portfolio">Portfolio</button></Col>
+                                        <Col md={4} className="col-stats"><button id="contact">Skontaktuj się</button></Col>
+                                        <Col md={4} className="col-stats"><button id="pricing">Wyceń projekt</button></Col>
+                                        <Col md={4} className="col-stats"><button id="portfolio">Portfolio</button></Col>
                                     </Row>
                                     <Row className="row-stats-mobile">
                                     <Col><button id="contact-mobile">Skontaktuj się</button> <button id="pricing-mobile">Wyceń projekt</button> <button id="portfolio-mobile">Portfolio</button></Col>
