@@ -13,17 +13,17 @@
     background: linear-gradient(180deg, rgba(35,86,255,1) 0%, rgba(31,45,232,1) 26%, rgba(57,0,191,1) 55%);
   }
 
-  .row-main:after {
-    content: '';
-    position: absolute ;
-    bottom: 0;
-    background: url(../images/wave.svg) repeat-x;
-    height: 300px;
-    width: 6400px;
-    height: 198px;
-    animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
-    transform: translate3d(0, 0, 0);
-  }
+  /*.row-main:after {*/
+  /*  content: '';*/
+  /*  position: absolute ;*/
+  /*  bottom: 0;*/
+  /*  background: url(../images/wave.svg) repeat-x;*/
+  /*  height: 300px;*/
+  /*  width: 6400px;*/
+  /*  height: 198px;*/
+  /*  animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;*/
+  /*  transform: translate3d(0, 0, 0);*/
+  /*}*/
 
   .row-stats-mobile {
     visibility: hidden;
@@ -47,8 +47,9 @@
   }
   
   .col-text {
-    height: 30vh;
+    height: 30%;
     margin-top: 18%;
+    background: red;
   }
   
   .col-picture {
@@ -56,17 +57,18 @@
   }
   
   .row-stats {
-    height: 10vh;
-    width: 26vw;
+    height: 10%;
+    width: 26%;
     left: 0;
     top: 0;
     right: 0;
     bottom: 0;
+    background: green;
   }
 
   @media (max-width: 1920px) {
     .row-stats {
-      width: 35vw;
+      width: 100%;
       margin-top: 1%;
     }
     .col-text {
@@ -79,7 +81,7 @@
 
   @media (max-width: 1600px) {
     .row-stats {
-      width: 41vw;
+      width: 100%;
       margin-top: -4%;
     }
     .col-text {
