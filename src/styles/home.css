@@ -166,7 +166,7 @@
   }
 }
 
-@media (max-width: 330.98px) {
+@media (max-width: 400.98px) {
 
   .div-left {
       top: 10%;
@@ -181,7 +181,7 @@
       visibility: hidden;
     }
     .row-stats-mobile {
-      margin-top: -22%;
+      margin-top: -15%;
       visibility: visible;
       z-index: 10;
     }

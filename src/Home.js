@@ -70,6 +70,7 @@ class Home extends Component {
                                     </Row>
                                     <Row className="row-text">
                                         <Col className="col-std col-text" md={12}>{<Text />}</Col>
+                                        <Col><button id="contact-mobile">Skontaktuj się</button> <button id="pricing-mobile">Wyceń projekt</button> <button id="portfolio-mobile">Portfolio</button></Col>
                                     </Row>
                                     <Row className="row-stats">
                                         <Col md={4}><button id="contact">Skontaktuj się</button></Col>
@@ -77,7 +78,6 @@ class Home extends Component {
                                         <Col md={4}><button id="portfolio">Portfolio</button></Col>
                                     </Row>
                                     <Row className="row-stats-mobile">
-                                        <Col><button id="contact-mobile">Skontaktuj się</button> <button id="pricing-mobile">Wyceń projekt</button> <button id="portfolio-mobile">Portfolio</button></Col>
                                     </Row>
                                 </Container>
                             </div>
