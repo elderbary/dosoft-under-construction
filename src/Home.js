@@ -25,15 +25,6 @@ class Home extends Component {
         document.getElementById('portfolio').addEventListener('click', function () {
             window.location.href = 'https://dribbble.com/dosoft';
         });
-        document.getElementById('contact-mobile').addEventListener('click', function () {
-            window.location.href = 'mailto:kontakt@dosoft.pl';
-        });
-        document.getElementById('pricing-mobile').addEventListener('click', function () {
-            window.location.href = 'https://forms.gle/7e2MrJPc7KLBe19g8';
-        });
-        document.getElementById('portfolio-mobile').addEventListener('click', function () {
-            window.location.href = 'https://dribbble.com/dosoft';
-        });
     }
 
     componentWillUnmount() {
@@ -44,15 +35,6 @@ class Home extends Component {
             window.location.href = 'https://forms.gle/7e2MrJPc7KLBe19g8';
         });
         document.getElementById('portfolio').removeEventListener('click', function () {
-            window.location.href = 'https://dribbble.com/dosoft';
-        });
-        document.getElementById('contact-mobile').removeEventListener('click', function () {
-            window.location.href = 'mailto:kontakt@dosoft.pl';
-        });
-        document.getElementById('pricing-mobile').removeEventListener('click', function () {
-            window.location.href = 'https://forms.gle/7e2MrJPc7KLBe19g8';
-        });
-        document.getElementById('portfolio-mobile').removeEventListener('click', function () {
             window.location.href = 'https://dribbble.com/dosoft';
         });
     }
@@ -75,10 +57,6 @@ class Home extends Component {
                                         <Col md={4} className="col-stats"><button id="contact">Skontaktuj się</button></Col>
                                         <Col md={4} className="col-stats"><button id="pricing">Wyceń projekt</button></Col>
                                         <Col md={4} className="col-stats"><button id="portfolio">Portfolio</button></Col>
-                                    </Row>
-                                    <Row className="row-stats-mobile">
-                                    <Col><button id="contact-mobile">Skontaktuj się</button> <button id="pricing-mobile">Wyceń projekt</button> <button id="portfolio-mobile">Portfolio</button></Col>
-
                                     </Row>
                                 </Container>
                             </div>

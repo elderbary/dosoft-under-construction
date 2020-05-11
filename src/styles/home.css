@@ -25,9 +25,6 @@
   /*  transform: translate3d(0, 0, 0);*/
   /*}*/
 
-  .row-stats-mobile {
-    visibility: hidden;
-  }
   .div-left {
     position: absolute;
     top: 5%;
@@ -58,7 +55,7 @@
   
   .row-stats {
     height: 10%;
-    width: 100%;
+    width: 75%;
     left: 0;
     top: 0;
     right: 0;
@@ -69,21 +66,21 @@
     height: 100%;
     width: 100%;
   }
-  
-  @media (max-width: 992px) {
+
+@media (max-width: 1199.98px) {
+  .row-stats {
+  width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
     .row-stats {
       width: 120%;
-    }
-    .row-stats-mobile {
-      visibility: hidden;
     }
 }
 
 @media (max-width: 768px) {
   .div-right {
-    visibility: hidden;
-  }
-  .row-stats-mobile {
     visibility: hidden;
   }
   .col-right {
