@@ -46,7 +46,6 @@
   .col-text {
     height: 30%;
     margin-top: 30%;
-    background: red;
   }
   
   .col-picture {
@@ -60,7 +59,6 @@
     top: 0;
     right: 0;
     bottom: 0;
-    background: green;
   }
   .col-stats {
     height: 100%;
