@@ -157,6 +157,7 @@
     margin-top: -20%;
     visibility: visible;
     z-index: 10;
+    width: 20vw;
   }
   .col-right {
     visibility: hidden;
