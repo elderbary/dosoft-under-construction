@@ -45,11 +45,11 @@ class Home extends Component {
                 <Container className="container-std">
                     <Row className="row-main">
                         <Col className="col-std col-left" md={6}>
-                            <div className="div-left">
-                                <Container className="container-left">
-                                    <Row className="row-logo">
+                        <Row className="row-logo">
                                         <Col className="col-std col-logo">{<Logo />}</Col>
                                     </Row>
+                            <div className="div-left">
+                                <Container className="container-left">
                                     <Row className="row-text">
                                         <Col className="col-std col-text" md={12}>{<Text />}</Col>
                                     </Row>
