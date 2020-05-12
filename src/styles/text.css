@@ -1,6 +1,7 @@
 .text {
     /* margin-right: 250px; */
     background: red;
+    transform: translate(0%, 100%);
 }
 
 .text h1 {

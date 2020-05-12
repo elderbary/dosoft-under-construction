@@ -31,8 +31,6 @@
     bottom: 0%;
     right:0%;
     left: 10%;
-    top: 50%;
-    transform: translate(0%, -50%);
   }
   
   .div-right {
@@ -45,6 +43,7 @@
 
   .row-text {
     background: teal;
+    height: 60vh;
   }
   
   .col-picture {
@@ -58,6 +57,7 @@
     top: 0;
     right: 0;
     bottom: 0;
+    
   }
   .col-stats {
     height: 100%;
